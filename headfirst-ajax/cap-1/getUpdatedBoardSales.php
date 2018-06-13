@@ -21,7 +21,7 @@ $cash = $totalSold * $cashPerBoard;
 </head>
 <body>
 <h1>Boards 'R' Us :: Custom Boards Report</h1>
-<h3><a href="../">Home</a></h3>
+<h3><a href="../">Voltar</a></h3>
 <div id="boards">
     <table>
         <tr>
