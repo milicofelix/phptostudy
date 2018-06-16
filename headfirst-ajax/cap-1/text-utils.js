@@ -24,7 +24,7 @@ function getText(el) {
       for (var i = 0; i < el.childNodes.length; i++) {
         var childNode = el.childNodes[i];
         if (childNode.nodeValue != null) {
-          text = text + childNode.nodeValue;
+          text  = text + childNode.nodeValue;
         }
       }
     }

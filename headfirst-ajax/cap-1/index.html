@@ -30,7 +30,8 @@
         function getBoardsSold() {
 
             createRequest();
-            var url = "getUpdatedBoardSales-ajax.php";
+//            var url = "getUpdatedBoardSales-ajax.php";
+            var url = "getUpdatedBoardSales-ajax_mysql.php";
             request.open("GET", url, true);
             request.onreadystatechange = updatePage;
             request.send(null);
@@ -40,7 +41,7 @@
 
             if (request.readyState == 4) {
 
-                var newTotal = request.responseText;
+                var newTotal = request.responseTe   xt;
                 var boardsSoldEl = document.getElementById("boards-sold");
                 var cashEl = document.getElementById("cash");
 
